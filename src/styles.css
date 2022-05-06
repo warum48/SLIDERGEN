@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css2?family=EB + Garamond&family=Tenor + Sans&display=swap);
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+.text-center {
+  text-align: center;
+}
+.implantWrapper {
+  max-width: 666px;
+  min-height: 850px;
+  margin: 0 auto;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  line-height: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+  color: #00022a;
+  padding: 38px 38px 0;
+  border: 1px solid #000;
+}
+.implantWrapper .hrline {
+  width: 196px;
+  height: 3px;
+  background: #ffb819;
+  margin: 36px auto 40px;
+}
+.implantWrapper .clear {
+  clear: both;
+}
+.implantWrapper a {
+  color: #b21e28;
+  text-decoration: underline;
+}
+.implantWrapper .sliderbox-content_img {
+  margin-bottom: 20px;
+}
+.implantWrapper .sliderbox-content_dotspace {
+  height: 45px;
+  position: relative;
+}
+.implantWrapper .sliderbox-content_head {
+  font-family: "Tenor Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  color: #00022a;
+  margin-bottom: 23px;
+}
+.implantWrapper .sliderbox-content_about p {
+  margin-bottom: 25px;
+}
+.implantWrapper .sliderbox .slick-dots {
+  /*position: absolute;
+  bottom: auto;
+  top: 411px;
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0;
+  margin: 0;*/
+  margin-top: -80px;
+  /*top: -50px;*/
+}
+.implantWrapper .sliderbox .slick-dots:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: block;
+  height: 1px;
+  width: 25%;
+
+  left: 0;
+  background-color: #000;
+}
+.implantWrapper .sliderbox .slick-dots:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: block;
+  height: 1px;
+  width: 25%;
+
+  right: 0;
+  background-color: #000;
+}
+.implantWrapper .sliderbox .slick-dots li {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 6px;
+  position: relative;
+}
+.implantWrapper .sliderbox .slick-dots li:before {
+  top: 50%;
+  content: "";
+  background-color: #c7c7c7;
+  width: 10px;
+  height: 10px;
+
+  left: 50%;
+  margin: -5px 0 0 -5px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+.implantWrapper .sliderbox .slick-dots li button {
+  display: block;
+  opacity: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #595959;
+  border-radius: 50%;
+  border: 0;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+.implantWrapper .sliderbox .slick-dots li.slick-active button {
+  opacity: 1;
+}
+.implantWrapper .slick-arrow {
+  border: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-indent: -9999px;
+  width: 14px;
+  height: 24px;
+  position: absolute;
+  top: 190px;
+}
+.implantWrapper .slick-arrow.slick-prev {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14px' height='24px'%3E%3Cpath fill-rule='evenodd' fill='rgb(0, 0, 0)' d='M12.293,0.293 L13.707,1.707 L1.707,13.707 L0.293,12.293 L12.293,0.293 Z'/%3E%3Cpath fill-rule='evenodd' fill='rgb(0, 0, 0)' d='M13.989,22.620 L12.621,23.989 L1.011,12.379 L2.379,11.011 L13.989,22.620 Z'/%3E%3C/svg%3E")
+    50% 50% no-repeat;
+  left: -25px;
+}
+.implantWrapper .slick-arrow.slick-prev:hover {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14px' height='24px'%3E%3Cpath fill-rule='evenodd' fill='rgb(213, 0, 50)' d='M12.293,0.293 L13.707,1.707 L1.707,13.707 L0.293,12.293 L12.293,0.293 Z'/%3E%3Cpath fill-rule='evenodd' fill='rgb(213, 0, 50)' d='M13.989,22.620 L12.621,23.989 L1.011,12.379 L2.379,11.011 L13.989,22.620 Z'/%3E%3C/svg%3E")
+    50% 50% no-repeat;
+}
+.implantWrapper .slick-arrow.slick-next {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14px' height='24px'%3E%3Cpath fill-rule='evenodd' fill='rgb(0, 0, 0)' d='M1.707,23.988 L0.293,22.574 L12.293,10.574 L13.707,11.988 L1.707,23.988 Z'/%3E%3Cpath fill-rule='evenodd' fill='rgb(0, 0, 0)' d='M0.011,1.660 L1.379,0.292 L12.989,11.902 L11.621,13.270 L0.011,1.660 Z'/%3E%3C/svg%3E")
+    50% 50% no-repeat;
+  right: -25px;
+}
+.implantWrapper .slick-arrow.slick-next:hover {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14px' height='24px'%3E%3Cpath fill-rule='evenodd' fill='rgb(213, 0, 50)' d='M1.707,23.988 L0.293,22.574 L12.293,10.574 L13.707,11.988 L1.707,23.988 Z'/%3E%3Cpath fill-rule='evenodd' fill='rgb(213, 0, 50)' d='M0.011,1.660 L1.379,0.292 L12.989,11.902 L11.621,13.270 L0.011,1.660 Z'/%3E%3C/svg%3E")
+    50% 50% no-repeat;
+}
+@media (max-width: 660px) {
+  .implantWrapper {
+    max-width: 510px;
+    min-height: 800px;
+  }
+  .implantWrapper .slick-arrow {
+    top: 142px;
+  }
+  .implantWrapper .sliderbox .slick-dots {
+    /*top: 307px;
+    margin-top: -80px;*/
+    margin-top: 0px;
+  }
+  .implantWrapper .sliderbox .slick-dots:after,
+  .implantWrapper .sliderbox .slick-dots:before {
+    width: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .implantWrapper {
+    max-width: 300px;
+    padding: 20px 20px 0;
+    font-size: 15px;
+    line-height: 18px;
+    min-height: 680px;
+  }
+  .implantWrapper .sliderbox-content_head {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+  .implantWrapper .sliderbox-content_dotspace {
+    height: 25px;
+  }
+  .implantWrapper .slick-arrow {
+    top: 70px;
+  }
+  .implantWrapper .slick-arrow.slick-prev {
+    left: -18px;
+  }
+  .implantWrapper .slick-arrow.slick-next {
+    right: -18px;
+  }
+  .implantWrapper .sliderbox .slick-dots {
+    /*top: 185px;
+    margin-top: -55px;*/
+    margin-top: 0px;
+  }
+  .implantWrapper .sliderbox .slick-dots:after,
+  .implantWrapper .sliderbox .slick-dots:before {
+    display: none;
+  }
+  .implantWrapper .sliderbox .slick-dots li {
+    width: 25px;
+    height: 25px;
+    margin: 0 4px;
+  }
+  .implantWrapper .sliderbox .slick-dots li button {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+}
+
+/*add*/
+ul.slick-dots {
+  bottom: 20px;
+}
+
+/*.slick-slider {
+  margin-bottom: -20px;
+}*/

@@ -1,0 +1,43 @@
+{
+  "name": "slidegen-second-slider-crearing",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@djthoms/pretty-checkbox": "3.1.0",
+    "@emotion/core": "10.0.9",
+    "@emotion/styled": "10.0.9",
+    "@reduxjs/toolkit": "1.8.0",
+    "axios": "0.25.0",
+    "pretty-checkbox-react": "3.2.0",
+    "prismjs": "1.26.0",
+    "react": "16.8.3",
+    "react-beautiful-dnd": "10.1.0",
+    "react-dom": "16.8.3",
+    "react-image-file-resizer": "0.4.7",
+    "react-prism": "4.3.2",
+    "react-redux": "7.2.6",
+    "react-scripts": "2.0.3",
+    "react-slick": "0.28.1",
+    "react-textarea-autosize": "8.3.3",
+    "react-use": "17.3.2",
+    "react-use-uuid": "2.0.1",
+    "redux-persist": "6.0.0",
+    "shortid": "2.2.16",
+    "slick-carousel": "1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
