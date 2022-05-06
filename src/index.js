@@ -37,7 +37,7 @@ const previewUrlBase =
 const initial = {
   time: 3000,
   slides: [
-    { text: "Текст первого слайда", id: "id-1", head: "Заголовок 01" },
+    { text: "Текст первого слайда", id: "id-1", head: "Заголовок 001" },
     { text: "Текст второго слайда", id: "id-2", head: "Заголовок 002" }
   ]
 };
